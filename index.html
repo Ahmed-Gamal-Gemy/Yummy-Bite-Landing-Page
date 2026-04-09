@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yummy Bite</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tabler/core@latest/dist/js/tabler.min.js"></script>
+    <script defer>
+      document.documentElement.classList.add(
+        localStorage.getItem("theme") || "light"
+      );
+    </script>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <button class="scroll-top">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="icon icon-tabler icons-tabler-outline icon-tabler-chevrons-up"
+      >
+        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+        <path d="M7 11l5 -5l5 5" />
+        <path d="M7 17l5 -5l5 5" />
+      </svg>
+    </button>
+    <nav>
+      <div class="container">
+        <section class="nav-logo">
+          <a href="index.html">Yummy <span>Bite</span></a>
+        </section>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#special">Special</a></li>
+          <li><a href="#chef">Chef</a></li>
+          <li><a href="#clients">Clients</a></li>
+          <li><a href="#">Contact Us</a></li>
+
+          <span class="close-btn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="icon icon-tabler icons-tabler-outline icon-tabler-x"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M18 6l-12 12" />
+              <path d="M6 6l12 12" />
+            </svg>
+          </span>
+        </ul>
+        <section class="nav-toggles">
+          <span class="toggle-menu" role="toggle-menu" tabindex="0">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="icon icon-tabler icons-tabler-outline icon-tabler-menu-2"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M4 6l16 0" />
+              <path d="M4 12l16 0" />
+              <path d="M4 18l16 0" />
+            </svg>
+          </span>
+          <button
+            class="theme-switcher"
+            role="theme-swither"
+            tabindex="0"
+          ></button>
+        </section>
+      </div>
+    </nav>
+    <main class="page-content">
+      <header class="hero-sec">
+        <section class="container">
+          <article class="hero-content">
+            <h1>Meet, eat & enjoy the <span>true taste.</span></h1>
+            <p>
+              Discover the true essence of culinary delight as you meet, eat,
+              and saver the authentic flavors thet define out passtion for food
+            </p>
+            <button class="hero-btn">Get Started</button>
+          </article>
+          <section class="hero-image">
+            <img src="images/hero-1920.webp" alt="image" />
+          </section>
+        </section>
+      </header>
+      <section class="special" id="special">
+        <div class="container">
+          <h2>our special dish</h2>
+          <p class="title-para">
+            each dish promises on inforgettable dining experience, blending
+            innovation with tradition to delight your senses
+          </p>
+          <section class="grid-container">
+            <section class="dish-box">
+              <img src="images/chicken veg curry.webp" alt="dish-image" />
+              <h3>chicken veg curry</h3>
+              <p>
+                diced chicken simmered in aramatic curry sauce with mixed
+                beggies like potatoes, cauliflower, and beans for a hearty,
+                flavarful dish
+              </p>
+              <footer class="dish-price">
+                <span class="cur-price">$12.50</span>
+                <h4 class="disscount">$10.00</h4>
+                <button>Add To Cart</button>
+              </footer>
+            </section>
+            <section class="dish-box">
+              <img
+                src="images/delicious-homemade-vegetable-fried-rice-recipe.webp"
+                alt="dish-image"
+              />
+              <h3>chicken veg stir-fry</h3>
+              <p>
+                Juicy, tender chicken strips stir-fried to perfection with a
+                vibrant mix of crisp, garden-fresh vegetables from crunchy bell
+                peppers
+              </p>
+              <footer class="dish-price">
+                <span class="cur-price">$18.50</span>
+                <h4 class="disscount">$15.00</h4>
+                <button>Add To Cart</button>
+              </footer>
+            </section>
+            <section class="dish-box">
+              <img
+                src="images/farfalle-pasta-with-meatballs-spinach-sauce-with-fried-chickpeas-removebg-preview.webp"
+                alt="dish-image"
+              />
+              <h3>chicken veg pasta</h3>
+              <p>
+                al dente pasta tassed with chicken strips and a mix of vibrant
+                vegatables in a creamy garlic herb sauce offering a delightful
+                expericence
+              </p>
+              <footer class="dish-price">
+                <span class="cur-price">$15.00</span>
+                <h4 class="disscount">$12.50</h4>
+                <button>Add To Cart</button>
+              </footer>
+            </section>
+          </section>
+        </div>
+      </section>
+      <section class="about-us">
+        <section class="container">
+          <section class="about-image">
+            <img
+              src="images/comfort-food-collection-illustration.webp"
+              alt=""
+            />
+          </section>
+          <article class="about-content">
+            <h3>we Serve healthy & tasty food</h3>
+            <p>
+              indulga guilt-free with our commitment to serving wholesome and
+              delicious meals, explore a menu curated to balance tase and
+              nutrition, ensuring every bite is both satisfying and nourishing
+            </p>
+            <button>
+              explore store
+              <span
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-right"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M5 12l14 0" />
+                  <path d="M13 18l6 -6" />
+                  <path d="M13 6l6 6" /></svg
+              ></span>
+            </button>
+          </article>
+        </section>
+      </section>
+      <section class="order-now">
+        <section class="container">
+          <article class="order-box">
+            <span class="order-icon"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="icon icon-tabler icons-tabler-outline icon-tabler-coffee"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path
+                  d="M3 14c.83 .642 2.077 1.017 3.5 1c1.423 .017 2.67 -.358 3.5 -1c.83 -.642 2.077 -1.017 3.5 -1c1.423 -.017 2.67 .358 3.5 1"
+                />
+                <path d="M8 3a2.4 2.4 0 0 0 -1 2a2.4 2.4 0 0 0 1 2" />
+                <path d="M12 3a2.4 2.4 0 0 0 -1 2a2.4 2.4 0 0 0 1 2" />
+                <path d="M3 10h14v5a6 6 0 0 1 -6 6h-2a6 6 0 0 1 -6 -6v-5z" />
+                <path d="M16.746 16.726a3 3 0 1 0 .252 -5.555" /></svg
+            ></span>
+            <h3>Order Your Food</h3>
+            <p>
+              Seamlessly place your food orders online with just a few clicks,
+              enjoy convenience and efficiency as you select from our diverse
+              menu of detectable dishes
+            </p>
+            <button class="order-btn">
+              read more
+              <span class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-right"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M5 12l14 0" />
+                  <path d="M13 18l6 -6" />
+                  <path d="M13 6l6 6" />
+                </svg>
+              </span>
+            </button>
+          </article>
+          <article class="order-box">
+            <span class="order-icon"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="icon icon-tabler icons-tabler-filled icon-tabler-truck"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path
+                  d="M13 4a1 1 0 0 1 1 1h4a1 1 0 0 1 .783 .378l.074 .108l3 5l.055 .103l.04 .107l.029 .109l.016 .11l.003 .085v6a1 1 0 0 1 -1 1h-1.171a3.001 3.001 0 0 1 -5.658 0h-4.342a3.001 3.001 0 0 1 -5.658 0h-1.171a1 1 0 0 1 -1 -1v-11a2 2 0 0 1 2 -2zm-6 12a1 1 0 1 0 0 2a1 1 0 0 0 0 -2m10 0a1 1 0 1 0 0 2a1 1 0 0 0 0 -2m.434 -9h-3.434v3h5.234z"
+                /></svg
+            ></span>
+            <h3>Pick you Food</h3>
+            <p>
+              customize you dining experience by choosing from a tantalizing
+              array or options, for savary, sweet, or in between craving, find
+              the perfect meal to satisfy your oppetite
+            </p>
+            <button class="order-btn">
+              read more
+              <span class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-right"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M5 12l14 0" />
+                  <path d="M13 18l6 -6" />
+                  <path d="M13 6l6 6" />
+                </svg>
+              </span>
+            </button>
+          </article>
+          <article class="order-box">
+            <span class="order-icon"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="icon icon-tabler icons-tabler-outline icon-tabler-mood-smile-beam"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M12 21a9 9 0 1 1 0 -18a9 9 0 0 1 0 18z" />
+                <path d="M10 10c-.5 -1 -2.5 -1 -3 0" />
+                <path d="M17 10c-.5 -1 -2.5 -1 -3 0" />
+                <path d="M14.5 15a3.5 3.5 0 0 1 -5 0" /></svg
+            ></span>
+            <h3>enjoy your food</h3>
+            <p>
+              sit back, relax, and savor the flavors as your meticulously
+              prepared meal arrives, delight in the deliciousness of over bite,
+              knowing that your satisfaction is our top priority
+            </p>
+            <button class="order-btn">
+              read more
+              <span class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-right"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M5 12l14 0" />
+                  <path d="M13 18l6 -6" />
+                  <path d="M13 6l6 6" />
+                </svg>
+              </span>
+            </button>
+          </article>
+        </section>
+      </section>
+      <section class="chef" id="chef">
+        <div class="container">
+          <article class="chef-info">
+            <h3>cooked by the best chefs in the world</h3>
+            <p>
+              experience culinary excellence crafted by master chefs from around
+              the globe. our team of culinary virtuosos brings together
+              expertise, innovatuin, and passion to create unforgettable dining
+              experiences that redefine gastronomy
+            </p>
+            <footer class="chef-feats">
+              <h4>savour culinary brilliance from master chefs worldwide</h4>
+              <h4>experience innovative creation with attention to detail</h4>
+              <h4>
+                enjoy dishes crafted with anunwavering passion for perfection
+              </h4>
+            </footer>
+          </article>
+          <figure class="chef-image">
+            <div class="image-box">
+              <img
+                src="images/smiling-young-male-chef-holding-ripe-orange-green-apple-his-hand-removebg-preview.webp"
+                alt="chef-image"
+              />
+            </div>
+          </figure>
+        </div>
+      </section>
+      <section class="clients" id="clients">
+        <section class="container">
+          <h2>what our cutomers are saying</h2>
+          <p>
+            dicover firsthand experiences and testimonials from out valued
+            patrons explore the feedback and reviews that showcase out
+            commitment to quality, service, and cutomer satisfaction
+          </p>
+          <article class="client-reviews">
+            <div class="box-container">
+              <section class="box">
+                <h4>
+                  Yummybite's culinary expertise never fails to impress! every
+                  dish is a masterplace, bursting with flavor and freshness
+                </h4>
+                <figure class="client-info">
+                  <span class="user-icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      class="icon icon-tabler icons-tabler-filled icon-tabler-user"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path
+                        d="M12 2a5 5 0 1 1 -5 5l.005 -.217a5 5 0 0 1 4.995 -4.783z"
+                      />
+                      <path
+                        d="M14 14a5 5 0 0 1 5 5v1a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-1a5 5 0 0 1 5 -5h4z"
+                      />
+                    </svg>
+                  </span>
+                  <h5>david lee</h5>
+                  <span class="title"> business executive </span>
+                </figure>
+              </section>
+              <section class="box">
+                <h4>
+                  "Every bite was a delight! The freshness of the ingredients
+                  and the balance of flavors show true culinary passion. Highly
+                  recommended!"
+                </h4>
+                <figure class="client-info">
+                  <span class="user-icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      class="icon icon-tabler icons-tabler-filled icon-tabler-user"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path
+                        d="M12 2a5 5 0 1 1 -5 5l.005 -.217a5 5 0 0 1 4.995 -4.783z"
+                      />
+                      <path
+                        d="M14 14a5 5 0 0 1 5 5v1a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-1a5 5 0 0 1 5 -5h4z"
+                      />
+                    </svg>
+                  </span>
+                  <h5>Michael Roberts</h5>
+                  <span class="title"> Financial Analyst </span>
+                </figure>
+              </section>
+              <section class="box">
+                <h4>
+                  "I was blown away by the attention to detail — from
+                  presentation to taste, everything was top-notch. Truly an
+                  unforgettable dining experience!"
+                </h4>
+                <figure class="client-info">
+                  <span class="user-icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      class="icon icon-tabler icons-tabler-filled icon-tabler-user"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path
+                        d="M12 2a5 5 0 1 1 -5 5l.005 -.217a5 5 0 0 1 4.995 -4.783z"
+                      />
+                      <path
+                        d="M14 14a5 5 0 0 1 5 5v1a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-1a5 5 0 0 1 5 -5h4z"
+                      />
+                    </svg>
+                  </span>
+                  <h5>Sarah Mitchell</h5>
+                  <span class="title"> Marketing Director </span>
+                </figure>
+              </section>
+            </div>
+            <ul class="comment-counts"></ul>
+          </article>
+        </section>
+      </section>
+    </main>
+    <footer>
+      <section class="container">
+        <section class="details">
+          <article class="col">
+            <h3 class="logo">Yummy <span>bite</span></h3>
+            <p>
+              embark on a gastronamic journey with Yummy Bite, where every bite
+              tells a story and every dish is crafted to perfection
+            </p>
+          </article>
+          <ul class="col">
+            <h3>product</h3>
+            <li>menu</li>
+            <li>specials</li>
+            <li>meal deals</li>
+            <li>catering</li>
+            <li>seasonal offerings</li>
+          </ul>
+          <ul class="col">
+            <h3>information</h3>
+            <li>about us</li>
+            <li>contact us</li>
+            <li>nutrition information</li>
+            <li>allergen information</li>
+          </ul>
+          <ul class="col">
+            <h3>company</h3>
+            <li>our story</li>
+            <li>careers</li>
+            <li>terms and conditions</li>
+            <li>privacy policy</li>
+          </ul>
+        </section>
+        <span class="copyright"
+          >copyright &copy; 2025 Ahmed Gamal. All Rights Reserved.</span
+        >
+      </section>
+    </footer>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/@tabler/core@latest/dist/js/tabler.min.js"
+    ></script>
+    <script defer src="js/script.js"></script>
+  </body>
+</html>
