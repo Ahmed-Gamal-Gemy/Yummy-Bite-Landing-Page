@@ -54,7 +54,7 @@ The project focuses on clean UI, smooth animations, and interactive user experie
 ---
 
 ## 🌐 Live Demo
-👉 https://Ahmed-Gamal-Gemy.github.io/yummy-bite-landing-page/
+👉 https://ahmed-gamal-gemy.github.io/Yummy-Bite-Landing-Page/
 
 ---
 
